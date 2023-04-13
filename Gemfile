@@ -100,6 +100,7 @@ group :development, :test do
 end
 
 group :test do
+  gem "draft_matchers", github: "jelaniwoods/draft_matchers"
   gem "rspec-html-matchers"
   gem "webmock"
 end

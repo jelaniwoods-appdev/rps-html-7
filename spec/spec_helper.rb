@@ -1,3 +1,4 @@
+require "draft_matchers"
 require "rspec-html-matchers"
 require "webmock/rspec"
 require "#{File.expand_path("../support/webmock", __FILE__)}"
